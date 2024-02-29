@@ -44,20 +44,22 @@ class EquipeProjeto {
 
 void main() {
   // 1. Criar varios objetos Dependentes
-  var dependente1 = Dependente('Filho 1');
-  var dependente2 = Dependente('Filho 2');
-  var dependente3 = Dependente('Filho 3');
+  var dependente1 = Dependente('trabalhador');
+  var dependente2 = Dependente('trabalhador');
+  var dependente3 = Dependente('trabalhadora');
+  var dependente4 = Dependente('trabalhadora');
 
   // 2. Criar varios objetos Funcionario
   var funcionario1 = Funcionario('NICOLAS', [dependente1]);
   var funcionario2 = Funcionario('FARLEY', [dependente2]);
   var funcionario3 = Funcionario('SOPHIA', [dependente3]);
+  var funcionario3 = Funcionario('ISABELLY', [dependente4]);
 
   // 3. Associar os Dependentes criados aos respectivos funcionarios
   // Isso já foi feito ao criar os objetos Funcionário
 
   // 4. Criar uma lista de Funcionarios
-  var listaFuncionarios = [funcionario1, funcionario2, funcionario3];
+  var listaFuncionarios = [funcionario1, funcionario2, funcionario3, funcionario4];
 
   // 5. criar um objeto Equipe Projeto chamando o metodo construtor que da nome ao projeto e insere uma coleção de funcionario
   var equipeProjeto = EquipeProjeto('Projeto de Desenvolvimento', listaFuncionarios);
