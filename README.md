@@ -1,4 +1,4 @@
-# Disciplina: Banco de Dados
+# Disciplina: Programção para dispositivos movéis
 
 ### Aluno: Ncolas Castro Do Nascimento
 ### Curso: Técnico Integrado em Informática.
